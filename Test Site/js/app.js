@@ -94,25 +94,25 @@ $(document).ready(function() {
 
 
 $('.contact-side-form').click(function() {
-	
-	$('.contact-side-input-form').animate({
+
+    $('.contact-side-input-form').animate({
         right: '0px'
     });
-	
-	$('.contact-side-form').animate({
-		right:'423px'
-	});
+
+    $('.contact-side-form').animate({
+        right: '423px'
+    });
 });
 
 $('.cancel-form').click(function() {
-	
-	$('.contact-side-input-form').animate({
+
+    $('.contact-side-input-form').animate({
         right: '-460px'
     });
-	
-	$('.contact-side-form').animate({
-		right:'-38px'
-	});
+
+    $('.contact-side-form').animate({
+        right: '-38px'
+    });
 });
 
 
